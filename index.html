@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--box icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet"href="style.css">
+    <script src="Google sheet.js"></script>
+</head>
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="#"class="logo">portfolio</a>
+
+        <i class='bx bx-menu' class="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            
+            
+
+
+
+        </nav>
+    </header>
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Bawantha</h1>
+            <h3>and I'm <span>Fullstack developer</span></h3>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100087280843352&mibextid=ZbWKwL" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="https:www.Google.com" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="https://youtube.com/@pasidubavantha2965?si=nZoXBezQZuSGVK8D" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+                <a href="#" class="fa fa-snapchat-ghost"></a>
+                <a href="#" class="fa fa-skype"></a>
+                <a href="#" class="fa fa-android"></a>
+                <a href="#" class="fa fa-dribbble"></a>
+                <a href="#" class="fa fa-vimeo"></a>
+                <a href="#" class="fa fa-tumblr"></a>
+                <a href="#" class="fa fa-vine"></a>
+                <a href="#" class="fa fa-foursquare"></a>
+                <a href="#" class="fa fa-stumbleupon"></a>
+                <a href="#" class="fa fa-flickr"></a>
+                <a href="#" class="fa fa-yahoo"></a>
+                <a href="#" class="fa fa-reddit"></a>
+                <a href="#" class="fa fa-rss"></a>
+
+             
+            </div>
+            <a href="#"class="btn">Download cv</a>
+        </div>
+        <div class="home-img">
+            <img src="homeimg.jpg" width="500px" height="400px">
+        </div>
+    </section>
+    <!--about section design-->
+    <section class="about"id="about">
+        <div class="about-img">
+            <img src="about.png">
+        </div>
+        
+        <div class="about-content">
+            <br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br>
+            <h2 class="heading">About <span> me</span></h2>
+            <h3>fullstack developer</h3>
+            <p>font end and back end</p>
+            
+            <a href="about me.html"class="btn">read more</a>
+        </div>
+    </section>
+    <!--services section design-->
+    <section class="services"id="services">
+        <h2 class="heading">our services</h2>
+        <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>web development</h3>
+            <a href="web development.html"class="btn">read more </a>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-paint'></i>
+            <h3>Graphic design</h3>
+            <a href="graphi desgin.html"class="btn">read more </a>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-paint'></i>
+            <h3>Game developement</h3>
+            <a href="game development.html"class="btn">read more </a>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-paint'></i>
+            <h3>CCTV Repairing</h3>
+            <a href="cctv.html"class="btn">read more </a>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-paint'></i>
+            <h3>Computer Repairing</h3>
+            <a href="computer.html"class="btn">read more </a>
+        </div>
+
+    </section >
+    <!--portfolio project-->
+    <section class="portfolio"id="portfolio">
+        <h2 class="heading">Latest<i> project</i></h2>
+        <br><br><br>
+        <table>
+            <tr>
+         
+            <th><img src="laranning 1.PNG" width="300" height="300"></th>
+            <th><img src="Capture.PNG"width="300"height="300"></th>
+            <th><img src="page1.jpeg"width="300"height="300"></th>
+        </tr>
+        <tr>
+            <th><img src="page2.jpg"width="300"height="300"></th>
+            <th><img src="computer repair 2.jpg"width="300"height="300"></th>
+            <th><img src="page3.jpg"width="300"height="300"></th>
+        </tr>
+        </table>
+        
+    </section>
+    <section class="contact"id="contact">
+        <div class="container">
+            <h2>contact us</h2>
+            <p>leave your message and will get back to your shortly</p>
+            <form action="">
+                <div>
+                    <span>
+                        <label for="name">Name</label><br>
+                        <input id="name"type="text"placeholder="full name">
+                    </span>
+                    <span>
+                        <label for="email">Email</label><br>
+                        <input id="email"type="email"placeholder="Email">
+                    </span>
+                </div>
+                <label for="message">your message</label><br>
+                <textarea name=""id="message"rows="10"placeholder="your message"></textarea>
+                <button onclick="sendToWhatsapp()">submit</button>
+            </form>
+        </div>
+        <script src="whatspp.js"></script>
+      
+      
+        
+    </section>
+    
+</body>
+</html>
